@@ -1,0 +1,121 @@
+* {
+    border: none;
+    font-family: Arial;
+}
+
+.bt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.frame {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+/* <!-- /////////////The Left Section///////////// --> */
+
+.info img {
+    width: 100%;
+}
+
+.address p {
+    width: 100%;
+    margin: 2px;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details input {
+    margin-top: 10px;
+}
+
+.moreDetails {
+    margin-top: 30px;
+}
+
+.moreDetails input, textarea {
+    margin-top: 12px;
+}
+
+.extraDetails {
+    margin-top: 25px;
+}
+
+.extraDetails input, textarea {
+    margin-top: 11px;
+}
+
+.extra {
+    margin-top: 28px;
+}
+
+.extra label {
+    display: inline-block;
+    width: 90%;
+    margin-top: 11px;
+}
+
+/* <!-- /////////////The Right Section///////////// --> */
+
+.PersonalInfo span {
+    width: 49%;
+    display: inline-block;
+}
+
+.PersonalInfo input {
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+
+.moreInfo input {
+    margin-top: 15px;
+}
+
+.moreInfo label {
+    width: 27%;
+    display: inline-block;
+}
+
+.notes .sep {
+    padding: 5px;
+}
+
+.notes textarea {
+    margin-top: 30px;
+}
+
+.closure p {
+    margin-top: 25px;
+    margin-left: 60%;
+}
+
+.closure .date input, input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 2;
+    width: 60%;
+}
+
+.closure .sign input, input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 3;
+    width: 70%;
+}
+
+/* <!-- /////////////Footer///////////// --> */
+
+.footer p {
+    margin-top: 3%;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+label, textarea, input, .address p, .footer p {
+    background-color: #E0E7FF;
+}
